@@ -9,7 +9,7 @@ class Zahlenraten {
 
     Zahlenraten() {
         laufend = true;
-        zufallszahl = random.nextInt(99) + 1;
+        zufallszahl = random.nextInt(100) + 1;
         versuche = 0;
         spielHelper = new SpielHelper();
     }
